@@ -72,13 +72,13 @@ La API incluye las siguientes operaciones CRUD sobre la tabla `products`:
 ## Tecnologías utilizadas
 
 - **Node.js**: Entorno de ejecución para JavaScript.
-```bash
-npm init -y  **** (crea archivo package.json para crear dependencias,...)
-```
+      ```bash
+      npm init -y  **** (crea archivo package.json para crear dependencias,...)
+      ```
 - **Express**: Framework para crear la API REST.
-```bash
-npm i express  **** (crea código servidor más sencillo con funciones precreadas)
-```
+      ```bash
+      npm i express  **** (crea código servidor más sencillo con funciones precreadas)
+      ```
 - **mssql**: Conexión con SQL Server.
 - **dotenv**: Gestión de variables de entorno.
 - **cors**: Habilitar Cross-Origin Resource Sharing.
