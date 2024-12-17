@@ -20,7 +20,7 @@ export const getProductById = async (req, res) => {
         .query('select * from products where id = @id')
 
     if (result.rowsAffected[0] === 0) {
-        res.status(404).json({ message: 'Producto no encontrado' })
+       return res.status(404).json({ message: 'Producto no encontrado' })
     }
 
     res.json(result.recordset[0]);

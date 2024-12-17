@@ -1,7 +1,7 @@
 import e from 'express';
 import sql from 'mssql';
 import { dbConfig } from '../config.js';
-console.log(dbConfig);
+
 
 /* los datos de la base de datos se obtienen de la variable de entorno se encuentran en el archivo .env
 y se llaman desde src/config.js!! 
