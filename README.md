@@ -7,7 +7,7 @@ Una REST API construida con Node.js para gestionar un CRUD de una tabla `product
 Asegúrate de tener instalados los siguientes requisitos antes de comenzar:
 
 - Node.js (v16 o superior)
-- SQL Server (con una base de datos configurada y acceso a una tabla `products`)
+- SQL Server (con una base de datos configurada y acceso a una tabla `products` y `vvusers`)
 - Un editor de texto o IDE (Visual Studio Code recomendado)
 
 ## Instalación
