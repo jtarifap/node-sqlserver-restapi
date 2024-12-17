@@ -49,13 +49,17 @@ Asegúrate de tener instalados los siguientes requisitos antes de comenzar:
 
 ## Endpoints
 
-La API incluye las siguientes operaciones CRUD sobre la tabla `products`:
+La API incluye :
 
+Operaciones CRUD sobre la tabla `products`:
 - **GET** `/products`: Obtiene todos los productos.
 - **GET** `/products/:id`: Obtiene un producto por su ID.
 - **POST** `/products`: Crea un nuevo producto.
 - **PUT** `/products/:id`: Actualiza un producto existente por su ID.
 - **DELETE** `/products/:id`: Elimina un producto por su ID.
+
+Login sobre la tabla `vvusers`:
+- **POST** `/login`: Login user.
 
 ### Ejemplo de un producto
 
