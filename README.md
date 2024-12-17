@@ -109,8 +109,10 @@ node-sqlserver-restapi/
 │       └── connection.js            # Configuración de la conexión a la base de datos SQL Server
 │   ├── contollers      
 │       └── products.controllers.js  # Controladores del CRUD de products
+│       └── login.controllers.js     # Controladores para el login
 │   └── routes/
 │       └── products.routes.js       # Rutas de la API para los productos
+│       └── login.routes.js          # Rutas de la API para el login
 │   ├── app.js
 │   ├── config.js                    # Configuraciones a base de datos, server, apiKey y otros (npm install dotenv --save)
 │   ├── index.js                  
