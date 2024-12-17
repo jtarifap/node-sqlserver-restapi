@@ -72,7 +72,14 @@ Login sobre la tabla `vvusers`:
   "description": "cargador laptop hp"
 }
 ```
+### Ejemplo del login
 
+```json
+{
+  "user": "myuser",
+  "password": "mypassword"
+}
+```
 ## Tecnologías utilizadas
 
 - **Node.js**: Entorno de ejecución para JavaScript.
