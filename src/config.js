@@ -11,3 +11,15 @@ export const dbConfig = {
         trustServerCertificate: true
     }
 };
+
+export const dbConfigSAP = {
+    user: process.env.USER_SAP,
+    password: process.env.PASSWORD_SAP,
+    server: process.env.SERVER_SAP,
+    database: process.env.DATABASE_SAP,
+    port: 1434,
+    options: {
+        encrypted: false,
+        trustServerCertificate: true
+    }
+};
